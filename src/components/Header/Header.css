@@ -1,5 +1,5 @@
 .header {
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     height: 80px;
     text-align: center;
     display: flex;
@@ -16,5 +16,5 @@
 }
 
 .header nav a:hover {
-    color: goldenrod;
+    color: #FF641A;
 }

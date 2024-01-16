@@ -1,0 +1,27 @@
+.login {
+    text-align: center;
+}
+
+form {
+    border: 1px solid gray;
+    height: fit-content;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.other-sign-in-options {
+    margin: 20px;
+}
