@@ -1,0 +1,20 @@
+.header {
+    background-color: antiquewhite;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header nav a:hover {
+    color: goldenrod;
+}
