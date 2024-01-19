@@ -20,7 +20,16 @@ const Header = () => {
                 <CustomLink to={'/products'}>Products</CustomLink>
                 <CustomLink to={'/orders'}>Orders</CustomLink>
                 <CustomLink to={'/register'}>Register</CustomLink>
+
+                {//user login kora thakle dekhabe 
+                    user &&
+                    <>
+                        <CustomLink to={'/vip'}>VIP</CustomLink>
+                    </>
+                }
+
                 <span style={{ 'color': '#FF641A', 'marginRight': '20px', 'fontWeight': '600', 'fontSize': '18px' }}>{user?.displayName && user.displayName}</span>
+
                 {
                     user?.uid
                         ?
