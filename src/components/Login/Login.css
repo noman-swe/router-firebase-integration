@@ -1,8 +1,14 @@
-.login {
+.login-wrapper {
+    margin: 0 auto;
+    width: 450px;
+    border: 2px solid silver;
+    padding: 10px;
+    border-radius: 8px;
     text-align: center;
+    margin-top: 100px;
 }
 
-form {
+.log-in-form {
     border: 1px solid gray;
     height: fit-content;
     width: 400px;
@@ -20,6 +26,10 @@ input {
 button {
     padding: 5px;
     border-radius: 5px;
+    background-color: rgb(230, 155, 85);
+    border: 3px solid rgb(228, 47, 23);
+    cursor: pointer;
+    color: #000000;
 }
 
 .other-sign-in-options {

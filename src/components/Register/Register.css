@@ -1,0 +1,10 @@
+.register {}
+
+.reg-wrapper {
+    margin: 0 auto;
+    width: 450px;
+    border: 1px solid bisque;
+    margin-top: 100px;
+    text-align: center;
+    padding: 15px;
+}
